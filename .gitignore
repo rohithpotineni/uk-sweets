@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/.venv/
+backend/.pytest_cache/
+backend/__pycache__/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+frontend/.env.local
+backend/.env
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Database
+*.sqlite3
+*.db
+
+# IDE
+.vscode/
+.idea/
